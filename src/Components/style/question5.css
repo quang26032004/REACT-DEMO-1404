@@ -1,0 +1,17 @@
+.register{
+    border: 1px solid #ccc;
+    width: 400px;
+
+}
+
+.result{
+    border: 1px solid #ccc;
+    width: 400px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
