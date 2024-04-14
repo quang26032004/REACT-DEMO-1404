@@ -34,7 +34,7 @@ const CardGroup = () => {
           </div>
 
           <div className="card__content">
-            <h1 className="card__title">{item.title}</h1>
+            <h1 className="card__title__describtion">{item.title}</h1>
             <p className="card__desc">{item.desc}</p>
           </div>
         </div>

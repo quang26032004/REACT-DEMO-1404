@@ -24,7 +24,7 @@ function Fragment() {
     setGender1(gender);
     setSkills1(skills);
     setAbout1(about);
-    alert("Registered successfully");
+    alert("Registered successfully done");
   };
   const handleReset = () => {
     setName1("");
