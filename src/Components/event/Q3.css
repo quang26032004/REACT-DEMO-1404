@@ -1,0 +1,24 @@
+.Question3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.question3__textfield{
+    width: 50%;
+
+}
+
+.question3__button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -104,10 +104,13 @@ function Fragment() {
 
           <>
             <p>About You</p>
-            <textarea
+            <textarea 
+              rows="5" 
+              cols="20"
               value={about}
               placeholder="Write something about yourself"
               onChange={(event) => setAbout(event.target.value)}
+
             />
           </>
 

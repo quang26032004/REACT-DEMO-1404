@@ -1,18 +1,17 @@
 import React from "react";
 import "./App.css";
-import Fragment from "./Components/card/Fragment";
-import Question5 from "./Components/card/Question5";
+import NoCopy from "./Components/event/NoCopy";
+
 
 
 const App = () => {
   
   return (
     <div>
-
-      <Fragment />
-      <Question5 />
+      <h1>React Event Handling</h1>
+      <NoCopy />
     </div>
-  );
+    );
 };
 
 export default App;
