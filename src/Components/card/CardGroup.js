@@ -1,5 +1,6 @@
 import React from "react";
 import "./card.css";
+import CardItem from "./CardItem";
 
 const cards = [
   {
@@ -28,16 +29,7 @@ const CardGroup = () => {
   return (
     <div className="card-container">
       {cards.map((item) => (
-        <div className="card" key={item.id}>
-          <div className="card__img">
-            <img src={item.img} alt="React" />
-          </div>
-
-          <div className="card__content">
-            <h1 className="card__title__describtion">{item.title}</h1>
-            <p className="card__desc">{item.desc}</p>
-          </div>
-        </div>
+        <CardItem CardItem = {item} key={item.id}/>
       ))}
     </div>
   );

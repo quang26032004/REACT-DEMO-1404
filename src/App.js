@@ -1,17 +1,13 @@
 import React from "react";
 import "./App.css";
-import NoCopy from "./Components/event/NoCopy";
-
-
+import MainPage from "./Components/SendData/MainPage";
 
 const App = () => {
-  
   return (
     <div>
-      <h1>React Event Handling</h1>
-      <NoCopy />
+      <MainPage />
     </div>
-    );
+  );
 };
 
 export default App;
